@@ -274,7 +274,7 @@ span.navbar-toggler-icon {
 /* Project Area */
 
 .site-main .project-area {
-	padding: 4rem 0;
+	padding: 1rem 0;
 }
 
 .site-main .project-area .button-group button {
@@ -288,11 +288,23 @@ span.navbar-toggler-icon {
 	padding-left: 3rem;
 }
 
-.site-main .project-area .grid .our-project > .title h4 {
+.our-project{
+	border: .2px solid #b1afaf;
+	margin:2px 0 10px 0
+}
+.our-project > .title{
+	padding-left:10px;
+	padding-right: 10px;
+}
+.our-project > .title h4 {
 	font: normal 400 var(--poppins);
 }
 
-.site-main .project-area .grid .our-project .img:hover img {
+.our-project .img img{
+	width: 100%;
+	height: 100%;
+}
+.our-project .img:hover img {
 	filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
