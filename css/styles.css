@@ -188,6 +188,10 @@ span.navbar-toggler-icon {
 .site-banner .site-title h4 {
 	font-size: 1.5rem;
 }
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
 
 /* End Banner Area */
 
@@ -288,19 +292,19 @@ span.navbar-toggler-icon {
 	padding-left: 3rem;
 }
 
-.our-project{
-	border: .2px solid #b1afaf;
-	margin:2px 0 10px 0
+.our-project {
+	border: 0.2px solid #b1afaf;
+	margin: 2px 0 10px 0;
 }
-.our-project > .title{
-	padding-left:10px;
+.our-project > .title {
+	padding-left: 10px;
 	padding-right: 10px;
 }
 .our-project > .title h4 {
 	font: normal 400 var(--poppins);
 }
 
-.our-project .img img{
+.our-project .img img {
 	width: 100%;
 	height: 100%;
 }
@@ -437,13 +441,12 @@ textarea {
 .list-item span {
 	color: var(--text-color);
 }
-@media (max-width:600){
-
+@media (max-width: 600) {
 }
 @media screen and (max-width: 550px) {
 	.site-banner .site-title h1 {
-	font-size: 2.5rem;
-}
+		font-size: 2.5rem;
+	}
 }
 
 @media screen and (max-width: 410px) {
@@ -454,18 +457,25 @@ textarea {
 	.site-main .brand-area .experience-area .call-area {
 		padding-left: 0;
 	}
-	.carousel .media{
+	.carousel .media {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.carousel .media img{
-		margin-bottom: .5rem;
+	.carousel .media img {
+		margin-bottom: 0.5rem;
 	}
 }
-@media (max-width:353px){
-	#homepage{
+@media (max-width: 353px) {
+	#homepage {
 		margin-bottom: 0;
 	}
-
+}
+@media (max-width: 396px) {
+	.hire-me {
+		margin-right: 0;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	
 }
